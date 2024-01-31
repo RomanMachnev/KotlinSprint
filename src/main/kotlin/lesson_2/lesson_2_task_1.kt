@@ -1,11 +1,11 @@
 package org.example.lesson_2
 
 fun main() {
-    val firstPeople = 3
-    val secondPeople = 4
-    val thirdPeople = 3
-    val fourthPeople = 5
-    val middleBall = (firstPeople + secondPeople + thirdPeople + fourthPeople) / 4f
+    val firstPupil = 3
+    val secondPupil = 4
+    val thirdPupil = 3
+    val fourthPupil = 5
+    val middleBall = (firstPupil + secondPupil + thirdPupil + fourthPupil) / 4f
 
     println(middleBall)
 }
