@@ -1,14 +1,13 @@
 package org.example.lesson_1
 
 fun main() {
-    var seconds = "6480"
-    val hours = "01"
-    val minutes = "48"
-    seconds = "00"
+    val secondsOfFlight = 6480
+    val secondsInMinute = 3600
+    val oneHours = 60
+    val hours = secondsOfFlight / secondsInMinute
+    val remainderSeconds = (secondsOfFlight - hours * secondsInMinute)
+    val minutes = (secondsOfFlight - hours * secondsInMinute) / oneHours
+    val seconds = remainderSeconds - minutes * oneHours
 
-    print(hours)
-    print(":")
-    print(minutes)
-    print(":")
-    print(seconds)
+    print("0$hours:$minutes:0$seconds")
 }
